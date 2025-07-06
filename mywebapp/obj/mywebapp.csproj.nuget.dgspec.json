@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gold\\Source\\Repos\\LogisWebApp\\mywebapp\\mywebapp.csproj": {}
+    "C:\\Users\\gold\\source\\repos\\LogisWebApp\\mywebapp\\mywebapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gold\\Source\\Repos\\LogisWebApp\\mywebapp\\mywebapp.csproj": {
+    "C:\\Users\\gold\\source\\repos\\LogisWebApp\\mywebapp\\mywebapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gold\\Source\\Repos\\LogisWebApp\\mywebapp\\mywebapp.csproj",
+        "projectUniqueName": "C:\\Users\\gold\\source\\repos\\LogisWebApp\\mywebapp\\mywebapp.csproj",
         "projectName": "mywebapp",
-        "projectPath": "C:\\Users\\gold\\Source\\Repos\\LogisWebApp\\mywebapp\\mywebapp.csproj",
+        "projectPath": "C:\\Users\\gold\\source\\repos\\LogisWebApp\\mywebapp\\mywebapp.csproj",
         "packagesPath": "C:\\Users\\gold\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gold\\Source\\Repos\\LogisWebApp\\mywebapp\\obj\\",
+        "outputPath": "C:\\Users\\gold\\source\\repos\\LogisWebApp\\mywebapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
