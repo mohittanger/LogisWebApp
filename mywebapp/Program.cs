@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore; // Ensure this directive is present to resolve 'UseSqlServer'
+using Microsoft.EntityFrameworkCore.SqlServer; // Add this directive to ensure the extension method is available
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DataDbContext>(options =>
+ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // Ensure the 'Microsoft.EntityFrameworkCore.SqlServer' package is installed
 
 var app = builder.Build();
 
@@ -24,6 +30,5 @@ app.UseAuthorization();
 //    name: "default",
 //    pattern: "{controller=Home}/{action=Index}/{id?}")
 //    .WithStaticAssets();
-
 
 app.Run();
